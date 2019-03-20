@@ -16,3 +16,7 @@ pub const ROTATION_RATE: f64 = 7.2921151467e-05;
 /// The universal gravity of the earth [m^3 / s^2]
 pub const UNIVERSAL_GRAVITY: f64 = 3.986005e+14;
 
+/// The squared orbitral essentricity of the earth
+pub const ESSENTRICITY_2_L: f64 = FLATTENING * (2.0 - FLATTENING);
+pub const ESSENTRICITY_2_S: f64 = ESSENTRICITY_2_L * LONG_RADIUS_OF_EARTH * LONG_RADIUS_OF_EARTH / SHORT_RADIUS_OF_EARTH / SHORT_RADIUS_OF_EARTH;
+
