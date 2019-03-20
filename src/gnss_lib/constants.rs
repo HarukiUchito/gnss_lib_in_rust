@@ -1,3 +1,6 @@
+
+// Geodetic Reference System constans
+
 /// The speed of light [m / s]
 pub const SPEED_OF_LIGHT: f64 = 2.99792458e+8;
 
