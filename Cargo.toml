@@ -1,0 +1,8 @@
+[package]
+name = "gnss_practice_in_rust"
+version = "0.1.0"
+authors = ["Haruki Uchiito <uhcahriuiktio0114@outlook.com>"]
+edition = "2018"
+
+[dependencies]
+ndarray = "0.12.1"
